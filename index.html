@@ -3,8 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Landmark Capital Advisors Private Limited</title>
-<meta name="description" content="Strategic Real Estate Investments. Institutional Expertise. Long-Term Value Creation.">
+<title>Landmark Capital Advisors Private Limited | Landmark Capital Advisors | News</title>
+<meta name="description" content="Landmark Capital Advisors Private Limited brings expertise in real estate investments, private equity and asset management, with the latest Landmark Capital Advisors News and industry insights.">
+<meta name="keywords" content="Landmark Capital Advisors Private Limited, Landmark Capital Advisors, Landmark Capital Advisors News, real estate investment management, private equity, institutional real estate funding">
+
+<link rel="canonical" href="https://landmarkcapitaladvisorsprivatelimit.vercel.app/" />
+
+<meta name="robots" content="index, follow">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -199,12 +205,12 @@ footer a{color:var(--brass)}
 <script>
 /* ---- Published PR links: add or edit entries here ---- */
 var PR_LINKS=[
- {title:"Landmark Capital Advisors Highlights the Rise of Income-Oriented Real Estate Investments",source:"Business Standard",url:"https://www.business-standard.com/content/press-releases-ani/landmark-capital-advisors-highlights-the-rise-of-income-oriented-real-estate-investments-126080501103_1.html"},
- {title:"Landmark Capital Advisors Highlights the Rise of Income-Oriented Real Estate Investments",source:"The Tribune",url:"https://www.tribuneindia.com/news/business/landmark-capital-advisors-highlights-the-rise-of-income-oriented-real-estate-investments/"},
- {title:"Landmark Capital Advisors Highlights the Rise of Income-Oriented Real Estate Investments",source:"WebIndia123",url:"https://news.webindia123.com/news/Articles/Business/20260805/4483504.html"},
- {title:"Landmark Capital Advisors News: Shifting Dynamics in India\u2019s Real Estate Investment Landscape",source:"EIN Presswire",url:"https://www.einpresswire.com/article/905824552/landmark-capital-advisors-news-shifting-dynamics-in-india-s-real-estate-investment-landscape"},
- {title:"Landmark Capital Advisors Shares 2026 Real Estate Market Outlook",source:"MENAFN",url:"https://menafn.com/1111123938/Landmark-Capital-Advisors-Shares-2026-Real-Estate-Market-Outlook"},
- {title:"Landmark Capital Launches INR 500 Crores Warehousing and Logistics Fund",source:"PR Newswire",url:"https://prnewswire.co.uk/news-releases/landmark-capital-launches-inr-500-crores-warehousing-and-logistics-fund-816383743.html"}
+ {title:"REITs vs. Private Deals: Where Should Family Offices Allocate in 2026? - Landmark Capital Advisors",source:"Mid-Day",url:"https://www.mid-day.com/buzz/article/reits-vs-private-deals-where-should-family-offices-allocate-in-2026-landmark-capital-advisors-11548"},
+ {title:"Landmark Capital Advisors News: How Structured Capital Is Shaping India's Real Estate Investment Market",source:"PressLitOff",url:"https://pressliftoff.com/press-release/landmark-capital-advisors-news-how-structured-capital-is-shaping-indias-real-estate-invest"},
+ {title:"SEBI's REIT-as-Equity Reclassification: How January 2026 Changed the Game for Real Estate Allocators",source:"ETNowNews",url:"https://www.etnownews.com/bizz-impact/sebis-reit-as-equity-reclassification-how-january-2026-changed-the-game-for-real-estate-allocators-article-155045886/"},
+ {title:"Landmark Capital Advisors News: Shifting Dynamics in India’s Real Estate Investment Landscape",source:"EIN Presswire",url:"https://www.einpresswire.com/article/905824552/landmark-capital-advisors-news-shifting-dynamics-in-india-s-real-estate-investment-landscape"},
+ {title:"Landmark Capital Advisors Strengthens Its Position in India’s Investment Ecosystem",source:"Issuewire",url:"https://www.issuewire.com/landmark-capital-advisors-strengthens-its-position-in-indias-investment-ecosystem-1861170027390339"},
+ {title:"Landmark Capital Advisors Strengthens Focus on Institutional Real Estate Growth in India",source:"OpenPR",url:"https://www.openpr.com/news/4454705/landmark-capital-advisors-strengthens-focus-on-institutional"}
 ];
 var $=function(s){return document.querySelector(s)};
 /* progress bar + active nav */
@@ -233,7 +239,7 @@ document.querySelectorAll(".stats b").forEach(function(b){co.observe(b)});
 /* PR links */
 function host(u){try{return new URL(u).hostname.replace("www.","")}catch(e){return u}}
 function esc(s){var d=document.createElement("div");d.textContent=s;return d.innerHTML}
-function render(){$("#prList").innerHTML=PR_LINKS.map(function(l,i){return '<article><small>'+esc(l.source||host(l.url))+'</small><h3>'+esc(l.title||host(l.url))+'</h3><div class="row"><button data-i="'+i+'">Embed preview</button><a href="'+esc(l.url)+'" target="_blank" rel="noopener">Open link</a></div></article>'}).join("")}
+function render(){$("#prList").innerHTML=PR_LINKS.map(function(l,i){return '<article><small>'+esc(l.source||host(l.url))+'</small><h3>'+esc(l.title||host(l.url))+'</h3><div class="row"><button data-i="'+i+'">PR Preview</button><a href="'+esc(l.url)+'" target="_blank" rel="noopener">Open link</a></div></article>'}).join("")}
 render();
 $("#prList").onclick=function(e){var b=e.target.closest("button");if(!b)return;var l=PR_LINKS[b.dataset.i];
  $("#mt").textContent=l.title;$("#mo").href=l.url;$("#mf").src=l.url;$("#modal").classList.add("open");$("#mc").focus()};
